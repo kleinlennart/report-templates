@@ -1,11 +1,12 @@
 ---
 title: "Untitled"
-author: "Your Name"
+author: "[Lennart Klein](mailto:lennart.klein@student.uni-tuebingen.de)"
+date: "`r format(Sys.time(), '%d. %B, %Y')`"
 output:
-  bookdown::html_document2:
+  bookdown::html_notebook2:
     toc: true
-    fig_caption: true
-    template: flatly
+    toc_float: true
+    highlight: "tango"
 ---
 
 ```{r setup, include=FALSE}
@@ -32,3 +33,15 @@ knitr::kable(mtcars[1:5, 1:5])
 
 
 ## Conclusions
+```
+</span><span class="GGBOEFPDGWB ace_keyword">&gt; </span><span class="GGBOEFPDGVB ace_keyword">fs::dir_tree("inst/")
+    </span><span class="GGBOEFPDAWB xtermBold xtermColor4">inst/</span><span class="GGBOEFPDAWB">
+        └── </span><span class="GGBOEFPDAWB xtermBold xtermColor4">rmarkdown</span><span class="GGBOEFPDAWB">
+        └── </span><span class="GGBOEFPDAWB xtermBold xtermColor4">templates</span><span class="GGBOEFPDAWB">
+        └── </span><span class="GGBOEFPDAWB xtermBold xtermColor4">advanced-Rmd</span><span class="GGBOEFPDAWB">
+        ├── </span><span class="GGBOEFPDAWB xtermBold xtermColor4">skeleton</span><span class="GGBOEFPDAWB">
+        │ ├── </span><span class="GGBOEFPDAWB xtermColor2">skeleton.Rmd</span><span class="GGBOEFPDAWB">
+        │ └── skeleton.nb.html
+        └── template.yaml
+    </span></span>
+```

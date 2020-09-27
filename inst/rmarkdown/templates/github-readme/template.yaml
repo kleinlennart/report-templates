@@ -1,0 +1,4 @@
+name: Advanced Rmd
+description: >
+   My default Rmd File with some boilderplate
+create_dir: FALSE
