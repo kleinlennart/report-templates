@@ -4,12 +4,44 @@ author: "[Lennart Klein](mailto:lennart.klein@student.uni-tuebingen.de)"
 date: "`r format(Sys.time(), '%d. %B, %Y')`"
 output:
   html_document:
+    includes:
+      in_header: installs.html
+      after_body: footer.html
     toc: true
     toc_float: true
     highlight: "tango"
-    include: 
-      before_body: header.html
 ---
+
+<!-- <div> -->
+
+<!--   Break right after this -->
+
+<!--   <!-- <br> could go here, but can we do it with CSS? --> -->
+
+<!--   <span> -->
+<!--     and before this -->
+<!--   </span> -->
+
+<!-- </div> -->
+
+
+<!-- "[Lennart Klein](mailto:lennart.klein@student.uni-tuebingen.de)<br> See the code on [github](https://github.com/kleinlennart/)" -->
+
+
+`r fontawesome::fa("github")`
+```{r}
+
+```
+
+
+
+
+```
+[Lennart Klein](mailto:lennart.klein@student.uni-tuebingen.de)
+
+[](https://github.com/kleinlennart)
+```
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

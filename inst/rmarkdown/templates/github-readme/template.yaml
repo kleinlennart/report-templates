@@ -1,4 +1,4 @@
-name: Advanced Rmd
+name: GitHub README Sample
 description: >
-   My default Rmd File with some boilderplate
+   How to create a README.md for R packages from a .Rmd file
 create_dir: FALSE

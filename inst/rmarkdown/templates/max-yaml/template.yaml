@@ -1,0 +1,4 @@
+name: Max YAML Template
+description: >
+   Include all available YAML Settings
+create_dir: TRUE

@@ -1,0 +1,27 @@
+---
+title: "Template Title"
+author: "Your Name"
+date: "The Date"
+output: html_document
+---
+
+(>- to have bullets appear on click)
+- Hello
+- World
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Built with `r getRversion()`
+
+```{r}
+sessionInfo()
+
+```
+
+
+```{r}
+sessioninfo::session_info()
+```
+

@@ -1,7 +1,7 @@
 
-<!-- Sample Package README forked from `rtweet` -->
+<!-- TODO: name file README.Rmd -->
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- Copyright Notice: Sample Package README forked from `rtweet` repo -->
 
 # rtweet <img src="figures/logo.png" width="160px" align="right" />
 

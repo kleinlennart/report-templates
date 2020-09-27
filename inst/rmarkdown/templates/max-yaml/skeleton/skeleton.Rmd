@@ -1,0 +1,40 @@
+---
+title: "Analysing the effect of Twitter communities on professional development"
+author: ["Lennart Klein", "Conrad Borchers"]
+date: "24. September, 2020"
+output:
+  html_document:
+    code_folding: "hide"  # "none", "hide", or "show"
+    css: style.css
+    # dev: "png"          # Graphics device to use for figure output
+    # fig_height:         # Default figure height and width (in inches) for document
+    # fig_width:  
+    highlight: "tango"    # Code Highlighting
+    includes:             
+      in_header: header.html    # place in <head>
+      before_body: title.html   # place at the beginning of <body>
+      after_body: footer.html   # place at the end of <body>
+    # keep_md: false      # Save a copy of .md file that contains knitr output
+    self_contained: false
+    lib_dir: libs # Directory of dependency files to use (Bootstrap, MathJax, etc.)
+    code_download: true # embed a copy of the Rmd file in HTML as download
+    fig_caption: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# cache = TRUE ??
+```
+
+
+
+## Hello
+```{r}
+sessionInfo()
+```
+
+## World
+```{r}
+
+```
+
